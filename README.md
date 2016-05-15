@@ -1,15 +1,14 @@
 # brainfuck
 
-A lone game to explore brainfuck, going to implement an interpreter to study
-the dynamics of the language, and then to the compiler.
+A lone game to explore brainfuck.
+
+So far, much frustration with interpreter, hacky C translator.
 
 Started by studying the [wiki article](https://en.wikipedia.org/wiki/Brainfuck)
 
 ### Interpreter:
-- Version 0.0.1
-	+ [x] Functional
-	+ [x] Ignores invalid commands
+- Still designing, failed attempt
 
 ### Compiler
-Still TODO
+- Simple translator to C
 
