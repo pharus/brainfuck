@@ -1,16 +1,20 @@
-# interpreter
+# Interpreter
 
-A small and simple interpreter to start
+A simple interpreter
 
-#### brainfucki command
+#### bfi command
 
-Considerations:
-- Ignores invalid commands, so any text file is a valid program, even hidden
-  one :)
-- Each cell, as described in the wiki, is initialized to 0, and has 1 byte of
-  size.
-- Uses 30kb array as in the wiki doc.
+Observations:
+- Fully functional
+- Only supports a script @ the time
+- Uses 30kb array
+- ignores invalid commands
 
-Supports:
-- Nested loops too(Case you're thinking of it)
+Done:
+- Fully functional, compliant as in the wiki
+
+Todo:
+- Proper production code, instead of hacky one
+- Pre-Compilation
+- better perfomance in memory and time
 
